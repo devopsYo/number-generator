@@ -1,13 +1,50 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 2em;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body
+{
+  margin: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.container
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 52em;
+}
+
+.square
+{
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: #c2e8dc;
+  width: 6em;
+  height: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.number
+{
+   color: #c2e8dc;
+}
+
+.even
+{
+  background-color: green;
+}
+
+.odd
+{
+  background-color: orange;
+}
+
+.prime
+{
+  background-color: red;
 }
